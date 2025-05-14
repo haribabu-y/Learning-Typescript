@@ -13,12 +13,11 @@ heading.textContent = message;
 document.body.appendChild(heading);
 
 //colleting the h2 element 
-let heading2 = document.querySelector('h2');
+let heading2 = document.querySelector('h2') as HTMLHeadingElement;
 
-// heading2?.textContent = "Heading 2";
+heading2.textContent = message;
 
 let count: number = 1;
 count = 4;
 console.log(count);
-
 

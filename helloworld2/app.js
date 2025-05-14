@@ -8,3 +8,9 @@ var heading = document.createElement('h1');
 heading.textContent = message;
 //adding the heading element into the body od the html document
 document.body.appendChild(heading);
+//colleting the h2 element 
+var heading2 = document.querySelector('h2');
+heading2.textContent = message;
+var count = 1;
+count = 4;
+console.log(count);
