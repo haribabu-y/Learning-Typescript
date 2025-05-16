@@ -41,7 +41,7 @@ console.log(result);
 
 let flexibleVarAny: any = "hello";
 flexibleVarAny = 123; // No error
-// console.log(flexibleVarAny.toUpperCase()); // Could cause a runtime error
+console.log(flexibleVarAny.toUpperCase()); // Could cause a runtime error
 console.log(flexibleVarAny);
 
 
@@ -50,7 +50,7 @@ flexibleVarUnknown = "456"; // No error
 console.log(flexibleVarUnknown);
 
 
-// console.log(flexibleVarUnknown.toUpperCase()); // Error: Object is of type 'unknown'.
+console.log(flexibleVarUnknown.toUpperCase()); // Error: Object is of type 'unknown'.
 
 if (typeof flexibleVarUnknown === 'string') {
   console.log(flexibleVarUnknown.toUpperCase()); // Okay, TypeScript knows it's a string now

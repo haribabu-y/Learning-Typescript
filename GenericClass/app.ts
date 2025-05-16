@@ -47,3 +47,59 @@ while(!stack1.isEmpty()) {
 
 console.log(stack1);
 
+
+const stack2 = new Stack<number>(4);
+stack2.pushelement(3);
+stack2.pushelement(5);
+stack2.popElement();
+stack2.pushelement(6);
+stack2.pushelement(8);
+stack2.popElement();
+stack2.pushelement(7);
+
+console.log(stack2);
+
+stack2.popElement();
+
+console.log(stack2);
+
+
+
+console.log("----------------------------------------------");
+
+class Pair<F, S> {
+    first: F;
+    second: S;
+    constructor(first: F, second: S) {
+        this.first = first;
+        this.second = second;
+    }
+
+    getFirst(): F {
+        return this.first;
+    }
+    getSecond(): S {
+        return this.second;
+    }
+
+    message(): String {
+        return `First value: ${this.first} and second value: ${this.second}`;
+    }
+}
+
+const numberStringpair = new Pair(2,'two');
+console.log(numberStringpair.getFirst());
+console.log(numberStringpair.getSecond());
+console.log(numberStringpair.message);
+
+const stringBooleanPair = new Pair('hello', true);
+console.log(stringBooleanPair.getFirst());
+console.log(stringBooleanPair.getSecond());
+console.log(stringBooleanPair.message());
+
+
+
+
+
+
+
