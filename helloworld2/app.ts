@@ -21,3 +21,6 @@ let count: number = 1;
 count = 4;
 console.log(count);
 
+// const element = document.body() as HTMLBodyElement;
+
+

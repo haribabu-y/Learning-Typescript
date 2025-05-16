@@ -14,3 +14,4 @@ heading2.textContent = message;
 var count = 1;
 count = 4;
 console.log(count);
+

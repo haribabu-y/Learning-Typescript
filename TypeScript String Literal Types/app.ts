@@ -24,9 +24,9 @@ mouseEvent = 'mousedown';
 console.log(mouseEvent);
 console.log(typeof(mouseEvent));
 
-mouseEvent = 'mouseover';
-console.log(mouseEvent);
-console.log(typeof(mouseEvent));
+// mouseEvent = 'mouseover';
+// console.log(mouseEvent);
+// console.log(typeof(mouseEvent));
 
 // type MyMouseEvent = 'click' | 'dblclick' | 'mouseup' | 'mousedown';
 // let mymouseEvent: MyMouseEvent;
